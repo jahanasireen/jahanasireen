@@ -2,21 +2,19 @@
 
 import { title } from "process";
 import { 
-  D5,
-  Enscape,
   LumionLogo,
-  Max3DS,
-  VRay
+  Max3DS, 
+  D5, 
+  Enscape, 
+  VRay, 
+  AutoCad, 
+  Excel, 
+  PhotoShop, 
+  Revit,
+  PowerPoint, 
+  SketchUp,
+  Word 
 } from "@/components/custom_icons";
-
-import {
-  SiAutocad,
-  SiSketchup,
-  SiAdobephotoshop,
-  SiMicrosoftword,
-  SiMicrosoftexcel,
-  SiMicrosoftpowerpoint,
-} from "react-icons/si";
 
 import { motion } from "framer-motion";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -87,11 +85,11 @@ const skills = {
   description: "",
   skillList: [
     {
-      icon: <SiAutocad />,
+      icon: <AutoCad />,
       name: "AutoCad",
     },
     {
-      icon: <SiSketchup />,
+      icon: <SketchUp />,
       name: "SketchUp",
     },
     {
@@ -99,7 +97,7 @@ const skills = {
       name: "Lumion",
     },
     {
-      icon: <SiAdobephotoshop />,
+      icon: <PhotoShop />,
       name: "Photoshop",
     },
     {
@@ -119,15 +117,19 @@ const skills = {
       name: "Enscape",
     },
     {
-      icon: <SiMicrosoftword />,
+      icon: <Revit />,
+      name: "Revit",
+    },
+    {
+      icon: <Word />,
       name: "MS sWord",
     },
     {
-      icon: <SiMicrosoftexcel />,
+      icon: <Excel />,
       name: "MS Excel",
     },
     {
-      icon: <SiMicrosoftpowerpoint />,
+      icon: <PowerPoint />,
       name: "PowerPoint",
     },
   ]
