@@ -3,7 +3,7 @@ import Image from 'next/image';
 const LumionLogo = () => {
   return (
     <Image
-          src="/jahanasireen/assets/lumion.jpg"
+          src="/jahanasireen/assets/lumion_logo.jpg"
           alt="Lumion"
           width={170}
           height={148}
@@ -15,7 +15,7 @@ const LumionLogo = () => {
 const D5 = () => {
   return (
     <Image
-          src="/jahanasireen/assets/d5.jpg"
+          src="/jahanasireen/assets/d5_logo.jpg"
           alt="D5"
           width={170}
           height={148}
@@ -39,7 +39,7 @@ const VRay = () => {
 const Enscape = () => {
   return (
     <Image
-          src="/jahanasireen/assets/enscape.jpg"
+          src="/jahanasireen/assets/enscape_logo.jpg"
           alt="Enscape"
           width={170}
           height={148}
